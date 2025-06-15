@@ -1,4 +1,5 @@
 import Meaning from "./Meaning";
+import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
