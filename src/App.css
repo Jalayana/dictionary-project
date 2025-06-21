@@ -9,16 +9,10 @@
   border-radius: 99px;
   display: block;
   margin: 0 auto;
-  padding: 10px;
 }
 
 .App-header {
   margin: 40px 0;
-}
-
-.App h1 {
-  font-size: 40px;
-  padding: 20px 0;
 }
 
 .App-footer {
