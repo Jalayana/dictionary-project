@@ -7,12 +7,7 @@ export default function Synonyms(props) {
         <strong>Synoymns: </strong>
         <ul>
           {props.synonyms.slice(0, 5).map(function (synonyms, index) {
-            return (
-              <li key={index}>
-                {synonyms}
-                {", "}
-              </li>
-            );
+            return <li key={index}>{synonyms}</li>;
           })}
         </ul>
       </div>

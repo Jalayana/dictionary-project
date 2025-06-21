@@ -1,0 +1,17 @@
+.Meaning h3 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+.Meaning .definition {
+  font-size: 24px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.Meaning .example {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #555;
+}

@@ -1,17 +1,18 @@
 import Synonyms from "./Synonyms";
+import "./Meaning.css";
 
 export default function Meaning(props) {
   return (
     <div className="Meaning">
-      <h3>{props.meaning.partOfSpeech}</h3>
-      <p>
+      <h3 className="part-of-speech">{props.meaning.partOfSpeech}</h3>
+      <p className="definition">
         <em>
           {props.index + 1}) {props.meaning.definition}
         </em>
       </p>
 
       {props.meaning.example && (
-        <p>
+        <p className="example">
           <strong>Example: </strong>
           {props.meaning.example}
         </p>

@@ -1,4 +1,13 @@
+.Synonyms {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
 .Synonyms li {
-  list-style: none;
-  display: inline;
+  display: inline-block;
+  margin-right: 12px;
+  padding: 4px 10px;
+  background: #f3da95;
+  border-radius: 6px;
+  font-weight: 500;
 }
